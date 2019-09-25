@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorbg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/theboldfont"
+        android:gravity="center_horizontal"
+        android:text="Highway cars"
+        android:textColor="@color/colorAccent"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_horizontal"
+        android:text="Published on Jul 9, 2017"
+        android:textColor="@color/colorbg1"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingTop="10dp"
+        android:text="Uploaded by\n\njargon grace\ncity : himnjia\nMo : 846332xxx23\nEMAIL : jargongrace@gmail.com"
+        android:textColor="@color/colorPrimary"
+        android:textSize="27sp" />
+
+</LinearLayout>
