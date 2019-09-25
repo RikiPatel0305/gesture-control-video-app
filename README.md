@@ -8,3 +8,5 @@ This is a small gesture controlled video app with the following Functionalities.
 (4) On swiping right : It shows a dummy profile of the video uploader<br />
 (5) On swiping left : It shows a pop up that is "Subscribed!"<br />
 
+(generated apk is in the path : "gesture-control-video-app/app/release/app-release.apk" in this repository)
+
